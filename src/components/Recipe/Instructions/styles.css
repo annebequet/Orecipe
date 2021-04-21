@@ -1,0 +1,22 @@
+.steps {
+  background-color: #F2F2F2;
+  padding: 2em;
+  border-radius: 2em 2em 0 0;
+  font-size: 1.2em;
+}
+
+.step {
+  padding-left: 2em;
+  margin: 1em 0;
+  position: relative;
+}
+
+.step::before {
+  content: '';
+  background: #F17F42;
+  left: 0;
+  top: 50%;
+  height: 1px;
+  width: 1.1em;
+  position: absolute;
+}

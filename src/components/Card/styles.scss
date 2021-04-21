@@ -1,0 +1,31 @@
+@use 'src/styles/vars';
+@use 'sass:color';
+
+.card {
+  width: 300px;
+  box-shadow: 0 0 5px rgba(0,0,0,.3);
+  border-radius: 10px;
+  margin: vars.$gutter;
+  &__image {
+    max-width: 100%;
+    border-radius: 10px 10px 0  0;
+  }
+  &__content {
+    padding: vars.$gutter;
+  }
+  &__title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: vars.$gutter / 3;
+  }
+  &__difficulty {
+    margin-bottom: vars.$gutter / 3;
+  }
+  &__link {
+    color: vars.$color-orange;
+    cursor: pointer;
+    &:hover {
+      color: color.scale(vars.$color-orange, $lightness: -20%)
+    }
+  }
+}

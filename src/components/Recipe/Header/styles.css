@@ -1,0 +1,32 @@
+.presentation {
+  position: relative;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.presentation-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.presentation-content {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 2rem;
+  padding: 2rem;
+  text-align: center;
+  background: rgba(0,0,0,0.3);
+}
+
+.presentation-title {
+  font-size: 2.5em;
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+
+.presentation-infos {
+  letter-spacing: .05em;
+}

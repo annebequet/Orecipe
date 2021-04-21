@@ -1,0 +1,9 @@
+@use 'src/styles/vars';
+
+.page {
+  margin-left: 205px;
+  &__content {
+    padding: vars.$gutter;
+    background-color: white;
+  }
+}

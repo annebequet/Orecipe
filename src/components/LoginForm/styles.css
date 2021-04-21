@@ -1,0 +1,26 @@
+.login-form {
+  width: 50%;
+}
+.login-form-element {
+  display: flex;
+  align-items: center;
+}
+.login-form-message {
+  text-align: right;
+  margin: .3em 1em;
+}
+.login-form-logged {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.login-form-button {
+  font-weight: 700;
+  font-size: 1em;
+  color: #fff;
+  background-color: #f17f42;
+  border-radius: .3em;
+  border: 0;
+  padding: .7em;
+  height: 2.5em;
+}
